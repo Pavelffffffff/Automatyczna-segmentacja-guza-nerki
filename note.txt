@@ -1,0 +1,5 @@
+Compute metrics for your predictions
+After installing the KiTS23 repository, the following console command is available to you: kits23_compute_metrics. You can use it to evaluate predictions against the training ground truth. It's as simple as
+
+kits23_compute_metrics FOLDER_WITH_PREDICTIONS -num_processes XX
+This will produce a evaluation.csv in FOLDER_WITH_PREDICTIONS with the computed Dice and surface Dice scores.
